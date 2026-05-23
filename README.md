@@ -1,50 +1,24 @@
 # DiafilmGUI
 ```
-A diafilm.csv fájl különböző diafilmek adatait tartalmazza, pontosvesszővel
+ A diafilm.csv fájl különböző diafilmek adatait tartalmazza, pontosvesszővel
  elválasztva, utf-8 kódolással. VIGYÁZAT, az első sor fejléc!
- Hozzunk létre egy Diafilm nevű projektet és oldjuk meg a következő feladatokat!
+ Hozzunk létre egy UtazasGUI nevű projektet és oldjuk meg a következő feladatokat!
 
- 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
-    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
-    Számoljuk meg és írjuk ki a fekete-fehér diafilmek számát!........(1p)
- 1) Írjuk ki a legrégebbi diafilm címét és készítésének évét!.........(1p)
-    Írjuk ki mely diafilmek készültek még ugyanebben az évben,........(1p)
-    a már kiírt diafilmen kívűl!......................................(1p)
- 2) Határozzuk meg a 2000 előtti diafilmek átlagos kockaszámát!.......(1p)
-    Írjuk ki ezt az átlagot a 2000 vagy utána készülteknél is!........(1p)
- 3) Készísünk statisztikát az évtizedenkénti diafilmek számából!......(2p)
- 4) Írjuk ki melyik évben készült a legtöbb kocka!....................(2p)
-    Írjuk ki melyik évben készült a második legtöbb kocka!............(1p)
- 5) Írjuk ki a 200x.txt fájlba a mintának megfelelően
-    a 200x évtizedben készült diafilmek adatait!......................(2p)
-
- Minta:
- 0) 705 diafilm adata beolvasva
-    Közülük 141 még fekete-fehér
- 1) A legrégebbi diafilm: A cár és a madár (1950)
-    De ugyanebben az évben készült még:
-    - Mese az aranykakasról (1950)
-    - Buksi (1950)
-    - Az öntelt veréb (1950)
- 2) A 2000 előtt készült diafilmek átlagos kockaszáma: 38,7
-    A később készült diafilmeknél az áltag: 29,4
- 3) Az egyes évtizedekben készült diafilmek száma:
-    1950-1959 : 254 darab
-    1960-1969 : 126 darab
-    1970-1979 : 118 darab
-    1980-1989 : 181 darab
-    1990-1999 : 15 darab
-    2000-2009 : 6 darab
-    2010-2019 : 5 darab
- 4) A legtöbb kocka (3053 db) készítésének éve: 1957
-    A második legtöbb kocka (2016 db) éve: 1958
- 5) A 200x évben megjelent diák adatai elmentve (200x.txt)
-
- 200x.txt:
- Böbe baba és a horgászbot;2000;28;I
- Két kis bocs meg a róka;2000;30;I
- Kismarkoló;2006;30;I
- Kisvonat a Mohavölgyben;2004;29;I
- Sün Balázs;2009;38;I
- A szépséges királykisasszony;2009;23;I
+ 1) Hozzuk létre a mintán látható grafikus felületet!.................(2p)
+    A Fájl menüben legyen Megnyitás (Ctrl+O) és Kilépés,
+    a Súgóban Névjegy menüpont!
+    A lista mérete 400x400 pixel, de kövesse az ablak méretét!
+    A ComboBox szélessége 100 pixel, a darabszám legyen MINDIG alul!
+    Induláskor a Fekete-fehér és a Színes opció is legyen kiválasztva!
+    Az elemek NE érjenek össze!
+ 2) A Megnyitás menüpont fájlválasztó segítségével töltse be az
+    adatokat tartalmazó *.csv fájlt (alapesetben a projektmappából)...(1p)
+    egy megfelelő adatszerkezetbe,....................................(1p)
+    az éveket (ismétlődés nélkül és növekvőben) tegye a ComboBoxba,...(1p)
+    majd válassza ki közülük a legelső évet,
+    és jelenítse meg a feltételnek elegettevő diafilmek listáját!.....(1p)
+ 3) A lista frissüljön, ha másik évet választunk,.....................(1p)
+    vagy ha változik a Fekete-fehér / Színes opció!...................(1p)
+ 4) A Súgó / Névjegy menüpont felugró ablakban adjon információt!.....(1p)
+    A Fájl / Kilépés menüpont zárja be a programot!...................(1p)
 ```
