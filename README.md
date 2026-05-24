@@ -1,4 +1,4 @@
-# DiafilmGUI
+# Diafilm -GUI
 ```
  A diafilm.csv fájl különböző diafilmek adatait tartalmazza, pontosvesszővel
  elválasztva, utf-8 kódolással. VIGYÁZAT, az első sor fejléc!
